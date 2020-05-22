@@ -7,7 +7,7 @@
 
 # Site settings
 title: dave的小博客
-brief-intro: Android and Python Coder
+brief-intro: Java and JavaScript Coder
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dave0824.github.io" # the base hostname & protocol for your site
 
