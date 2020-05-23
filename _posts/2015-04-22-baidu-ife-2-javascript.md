@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "百度Web前端技术学院(2)-JavaScript 基础"
-date:   2015-04-22 19:06:05
+date:   2018-04-22 19:06:05
 categories: JavaScript
 tags: Baidu ife JavaScript 正则 Regular
 ---
@@ -1437,9 +1437,9 @@ var speed = (target - imgListDiv.offsetLeft) / 6;
 ```
 
     逐渐变慢，最后停止，距离越远速度越大，速度由距离决定
-
+    
     速度=(目标值-当前值)/缩放系数
-
+    
     这样写的原因就是为了让它做缓冲运动，而不是匀速运动，这样给用户带来的交互感觉会更好。
 
 * 速度取整
@@ -1457,7 +1457,7 @@ imgListDiv.style.left = imgListDiv.offsetLeft + speed + "px";
 ```
 
     由这一行可以看出，`imgListDiv.style.left` 在不断增大，即 `imgListDiv.offsetLeft` 在不断增大。这两个是相同的属性，只不过一个是在赋值时使用，第二个是在取值时使用。
-
+    
     再看这行代码，由于这部分是每个30ms执行一次的，所以继续执行到这里。
 
 ```js
