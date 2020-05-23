@@ -17,9 +17,9 @@ type: page
 * [ BootCDN-Bootstrapt](https://www.bootcdn.cn/)
 
     BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务
-* [ npm | build amazing things](https://www.npmjs.com/)
+* [ npm-build](https://www.npmjs.com/)
 
-    npm | build amazing things
+    npm build amazing things
 * [ maven-aliyun](https://maven.aliyun.com/mvn/search)
 
     阿里云仓库服务maven
@@ -71,7 +71,7 @@ type: page
 
 * [ github-developert](https://developer.github.com/)
 
-    GitHub Developer | GitHub Developer Guide
+    GitHub Developer GitHub Developer Guide
 * [ react-doc](https://zh-hans.reactjs.org/)
 
     React – 用于构建用户界面的 JavaScript 库
@@ -83,7 +83,7 @@ type: page
     自述 · Redux
 * [ redux-js](https://redux.js.org/)
 
-    Redux - A predictable state container for JavaScript apps. | Redux
+    Redux - A predictable state container for JavaScript apps. Redux
 * [ redux-ch](http://cn.redux.js.org/)
 
     redux中文文档
@@ -92,13 +92,13 @@ type: page
     快速开始 — Vuetify.js
 * [ ceu-router](https://router.vuejs.org/zh/guide/#html)
 
-    起步 | Vue Router
+    起步  Vue Router
 * [ jeklly-doc](https://www.jekyll.com.cn/docs/)
 
-    快速入门 | Jekyll • 一个简洁的博客、静态网站生成工具
+    快速入门  Jekyll • 一个简洁的博客、静态网站生成工具
 * [ jspopularGL](http://lbsyun.baidu.com/index.php?title=jspopularGL)
 
-    jspopularGL | 百度地图API SDK
+    jspopularGL  百度地图API SDK
 ## 编程语言
 
 ### JavaScript
