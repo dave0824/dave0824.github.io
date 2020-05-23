@@ -19,8 +19,8 @@ facebook_username: #dave
 github_username:  dave0824
 email: dave_0824@163.com
 weibo_username: 生活就像攀登。
-zhihu_username: 梦醒
-linkedIn_username: dave
+zhihu_username: meng-xing-32-86
+linkedIn_username:
 dribbble_username:
 
 description_footer: dave的小博客，记录生活的点滴
@@ -33,7 +33,7 @@ disqus_shortname: #dave
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
-# hm.src = "//hm.baidu.com/hm.js?552aa8d99c04e57a157ba015b317ce20";
+# hm.src = "//hm.baidu.com/hm.js?xxxxx";
 # xxxxx字符串
 baidu_tongji_id: 552aa8d99c04e57a157ba015b317ce20
 google_analytics_id: UA-72449510-4 # google 分析追踪id
