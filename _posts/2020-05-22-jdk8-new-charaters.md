@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JDK1.8的新特性"
-data: 2018年5月22日15:40:06
+data: 2020年5月22日15:40:06
 categories: java
 tags:  java java基础 jdk8  
 author: dave
