@@ -32,7 +32,7 @@
       },
       {
           demo_link: 'http://ruoyi.vip/',
-          img_link: 'https://mmbiz.qpic.cn/mmbiz_png/iaIdQfEric9TyibW29gc9tAJBaicjO0dDWshTkK4wNLz0P9HRAfxv4spaoJw2btEKHqQIlFmXicWbmj1yCrhdMKZDAQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+          img_link: 'https://oscimg.oschina.net/oscnet/629f1510fb6205f773c8c284863406b694f.jpg',
           code_link: 'https://gitee.com/y_project/RuoYi',
           title: 'RuoYi Java项目快速开发手架',
           core_tech: 'SpringBoot',
@@ -40,7 +40,7 @@
       },
       {
           demo_link: 'http://boot.jeecg.com',
-          img_link: 'https://mmbiz.qpic.cn/mmbiz_png/iaIdQfEric9TyibW29gc9tAJBaicjO0dDWshJicEqAdYpK8eibcjoRrQCwsLNLsvPvHQYttAUP8PKMgFOhkKQQLofwAg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+          img_link: 'https://static.oschina.net/uploads/img/201912/25133248_Ag1C.jpg',
           code_link: 'https://gitee.com/jeecg/jeecg-boot',
           title: 'Jeecg-boot Java项目快速开发手架',
           core_tech: 'SpringBoot',
@@ -48,7 +48,7 @@
       },
       {
           demo_link: 'https://www.oschina.net/p/iBase4J',
-          img_link: 'https://mmbiz.qpic.cn/mmbiz_png/iaIdQfEric9TyibW29gc9tAJBaicjO0dDWshXEsF80cOL0JkFIVdmCiatn9ggOXiaQEyIn5UH3U4ohdG2njK4LPdjybw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+          img_link: 'http://git.oschina.net/iBase4J/iBase4J/raw/master/img/index.png',
           code_link: 'https://gitee.com/iBase4J/iBase4J',
           title: 'iBase4J Java项目快速开发手架',
           core_tech: 'SpringBoot',
