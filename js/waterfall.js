@@ -24,7 +24,7 @@
       },
       {
           demo_link: 'https://pig4cloud.com/',
-          img_link: 'https://mmbiz.qpic.cn/mmbiz_png/iaIdQfEric9TyibW29gc9tAJBaicjO0dDWsho5ZWnncKHr0ibfa9uia2icApfO7FKuhaVmeHjIjqHpTQVkJ5ibric913eLw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+          img_link: 'https://camo.githubusercontent.com/47d7ae0a279936e2c1f5add38aae3ba0fd5705fa/68747470733a2f2f6769742e6f736368696e612e6e65742f75706c6f6164732f696d616765732f323031372f303532362f3130333832375f64363231386337345f3535313230332e706e67',
           code_link: 'https://gitee.com/log4j/pig',
           title: 'Pig Java项目快速开发手架',
           core_tech: 'SpringCloud',
