@@ -13,6 +13,15 @@
      * 内容JSON
      */
   var demoContent = [
+
+      {
+          demo_link: 'https://demo.stylefeng.cn/',
+          img_link: 'https://camo.githubusercontent.com/4eb41152d88bcd2692ebf99230c5d1a0eb0a9b66/68747470733a2f2f6769742e6f736368696e612e6e65742f75706c6f6164732f696d616765732f323031372f303532362f3130333832325f35386664356439315f3535313230332e706e67',
+          code_link: 'https://github.com/stylefeng/Guns',
+          title: 'Guns Java项目快速开发手架',
+          core_tech: 'SpringBoot',
+          description: '适合企业后台管理网站的快速开发场景，不论是对于单体和微服务都有支持，主要功能有：系统管理、代码生成、SSO单点登录、短信。授权、任务调度等'
+      }
     /*{
       demo_link: 'https://codepen.io/haoyang/pen/jrvrQq',
       img_link: 'https://ooo.0o0.ooo/2016/11/24/5836d81f48cd2.png',
