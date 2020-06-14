@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "从底层深入理解JMM、volatile、CAS"
+title:  "阻塞队列详解"
 data: 2020年6月2日15:15:05
 categories: java
 tags:  java BlockQueue
