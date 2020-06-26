@@ -78,6 +78,7 @@ RestTemplate 是从 Spring3.0 开始支持的一个 HTTP 请求工具，它提�
 
 ## Get请求
 ![rest_get](https://github.com/dave0824/dave0824.github.io/blob/master/asset/springcloud/rest/rest_get.png?raw=true)
+
 可以看到，使用RestTemplate发送get请求主要有两类方法，分别是getForEntity和getForObject，两类方法又分别有三个重载方法，接下来我们看看这两个方法。
 
 ### getForEntity
@@ -168,6 +169,7 @@ getForObject和getForEntity类似，唯一的区别就是getForObject返回参�
 ```
 ## POST 请求
 ![rest_post](https://github.com/dave0824/dave0824.github.io/blob/master/asset/springcloud/rest/rest_post.png?raw=true)
+
 post 请求的方法类型除了 postForEntity 和 postForObject 之外，还有一个 postForLocation。这里的方法类型虽然有三种，但是这三种方法重载的参数基本是一样的。
 
 ### postForEntity
