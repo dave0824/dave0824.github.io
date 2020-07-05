@@ -1,14 +1,14 @@
 ---
-      layout: post
-      title:  "ElementUi多层嵌套表单校验"
-      data: 2020年7月2日19:59:53
-      categories: vue
-      tags:  elementUI
-      author: dave
-      ---
+layout: post
+title:  "ElementUi多层嵌套表单校验"
+data: 2020年7月2日19:56:48
+categories: vue
+tags:  elementUI
+author: dave
+---
 
-      * content
-      {:toc}
+* content
+{:toc}
 ## 前言
 本文对vue的ui框架elementUI表单校验的总结
 
