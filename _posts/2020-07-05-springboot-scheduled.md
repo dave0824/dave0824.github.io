@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TimePicker 时间选择器"
-data: 2020年7月3日20:36:48
+title:  "Scheduled定时任务详解"
+data: 2020年7月5日20:19:48
 categories: SpringBoot
 tags:  Scheduled
 author: dave
@@ -48,6 +48,7 @@ scheduling:
         queueCapacity: 200
 ```
 在需要使用到定时任务的类中注入：
+
 ```java
 @Component
 @ConditionalOnProperty(prefix = "scheduling", name = "enabled", havingValue = "true")
