@@ -12,6 +12,9 @@ author: dave
 ## 前言
 项目经理让介绍Markdown语法，就顺便整理了本篇博客，哈哈。
 
+
+
+
 ## 一、标题
 示例：
 ```
@@ -200,6 +203,7 @@ title可加可不加
 | git diff     | git diff       | git diff      |
 ```
 效果：
+
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
