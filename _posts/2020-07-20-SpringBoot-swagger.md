@@ -28,6 +28,7 @@ Swagger其实就是我们前后端分离时来实现前后端开发的信息及�
 
 ## Swagger的使用
 1. 导入依赖
+
 ```java
 <dependency>
     <groupId>io.springfox</groupId>
@@ -40,10 +41,11 @@ Swagger其实就是我们前后端分离时来实现前后端开发的信息及�
     <version>2.9.2</version>
 </dependency>
 ```
+
 2. 配置Swagger
-**在SwaggerConfig中配置Swagger的基本信息：**
+在SwaggerConfig中配置Swagger的基本信息:
+
 ```java
-​
 package com.lyr.swagger.config;
  
 import org.springframework.context.annotation.Bean;
@@ -93,7 +95,9 @@ public class SwaggerConfig {
     }
 }
 ```
+
 ## Swagger常用注解
+
 ```
 - @Api()用于类； 
 表示标识这个类是swagger的资源 
@@ -111,10 +115,12 @@ public class SwaggerConfig {
 表示单独的请求参数 
 - @ApiImplicitParams() 用于方法，包含多个 @ApiImplicitParam
 ```
+
 ### @Api()
 用于类；表示标识这个类是swagger的资源。 
 tags –表示说明 
 value –也是说明，可以使用tags替代
+
 ```java
 @Api(value="用户controller",tags={"用户操作接口"})
 @RestController
@@ -132,6 +138,7 @@ tags -可以重新分组
 name –参数名 
 value –参数说明 
 required –是否必填
+
 ```java
 @Api(value="用户controller",tags={"用户操作接口"})
 @RestController
@@ -145,6 +152,7 @@ public class UserController {
   }
 }
 ```
+
 效果图：
 ![getUser](https://github.com/dave0824/dave0824.github.io/blob/master/asset/springboot/swagger/getUser.png?raw=true)
 ### @ApiModel()
@@ -178,6 +186,7 @@ public class User implements Serializable{
      //省略get、set
 }
 ```
+
 ```java
   @ApiOperation("更改用户信息")
   @PostMapping("/updateUserInfo")
