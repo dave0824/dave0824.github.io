@@ -35,7 +35,7 @@ author: dave
 
 ## 2. 动图演示
 
-![动图演示](../asset/algorithm/bubbleSort.gif)
+![动图演示](https://github.com/dave0824/dave0824.github.io/blob/master/asset/algorithm/bubbleSort.gif?raw=true)
 
 
 ## 3. 什么时候最快

@@ -31,7 +31,7 @@ author: dave
 
 ## 2. 动图演示
 
-![动图演示](../asset/algorithm/selectionSort.gif)
+![动图演示](https://github.com/dave0824/dave0824.github.io/blob/master/asset/algorithm/selectionSort.gif?raw=true)
 
 
 ## 3. JavaScript 代码实现
