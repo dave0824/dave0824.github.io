@@ -3,7 +3,7 @@ layout: post
 title:  "希尔排序"
 data: 2020年8月8日21:55:12
 categories: algorithm
-tags:  algorithm
+tags:  algorithm sort
 author: dave
 ---
 

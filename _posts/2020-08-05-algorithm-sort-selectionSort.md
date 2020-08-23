@@ -3,7 +3,7 @@ layout: post
 title:  "选择排序"
 data: 2020年8月5日22:12:32
 categories: algorithm
-tags:  algorithm
+tags:  algorithm sort
 author: dave
 ---
 

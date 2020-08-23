@@ -3,7 +3,7 @@ layout: post
 title:  "插入排序"
 data: 2020年8月6日21:25:39
 categories: algorithm
-tags:  algorithm
+tags:  algorithm sort
 author: dave
 ---
 
