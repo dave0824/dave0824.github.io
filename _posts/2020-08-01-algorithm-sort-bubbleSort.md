@@ -3,7 +3,7 @@ layout: post
 title:  "冒泡排序"
 data: 2020年8月1日21:40:51
 categories: algorithm
-tags:  algorithm
+tags:  algorithm sort
 author: dave
 ---
 
