@@ -7,6 +7,7 @@ tags:  java java基础 jdk8
 author: dave
 ---
 
+* content
 {:toc}
 # JDK1.8的新特性
 
