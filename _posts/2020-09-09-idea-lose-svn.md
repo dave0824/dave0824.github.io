@@ -8,6 +8,7 @@ author: dave
 ---
 
 * content
+{:toc}
 ## 前言
 今天好好的idea突然失去了项目的svn控制，记下解决方法
 

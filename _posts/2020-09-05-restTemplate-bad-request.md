@@ -2,12 +2,13 @@
 layout: post
 title:  "运行一段时间后,RestTemplate请求报400错误"
 data: 2020年9月5日19:12:39
-categories: idea
-tags:  svn idea
+categories: SpringBoot
+tags:  RestTemplate
 author: dave
 ---
 
 * content
+{:toc}
 ## 问题描述
 本地调用联通限速接口无误，部署到服务器上调用刚开始也无误，随着时间的推移，调用次数的增加，再次调用时报 400 Bad Request 错误。
 
