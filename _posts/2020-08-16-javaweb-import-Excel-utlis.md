@@ -151,7 +151,74 @@ public class ImportExcel {
 </bean>
 
 ```
-### 5. 批量插入mapper
+### 5. 数据出重
+
+```java
+
+    public static final int INSERT_DATA_LENGTH = 600;
+	/**
+	 *
+	 * @Title:        listDeduplication
+	 * @Description:  List集合本身去重
+	 * @param:        @param list
+	 * @param:        @return
+	 * @return:       List<String>
+	 * @author        dave
+	 * @date          2020年8月14日 下午3:06:39
+	 */
+	 public List<String> listDeduplication(List<String> list){
+	        Set<String> set = new HashSet<>();
+	        List<String> newList = new  ArrayList<>();
+	        set.addAll(list);
+	        newList.addAll(set);
+	        return newList;
+	 }
+
+	 /**
+	  *
+	  * @Title:        listrem
+	  * @Description:  list去除数据库中的数据
+	  * @param:        @param listA
+	  * @param:        @param listB
+	  * @param:        @return
+	  * @return:       List<String>
+	  * @author        dave
+	  * @date          2020年8月14日 下午3:08:00
+	  */
+	 public  List<String> listrem(List<String> listA,List<String> listB){
+	        HashSet<String> hs1 = new HashSet<>(listA);
+	        HashSet<String> hs2 = new HashSet<>(listB);
+	        hs1.removeAll(hs2);
+	        List<String> listC = new ArrayList<>();
+	        listC.addAll(hs1);
+	        return listC;
+	 }
+
+	 /**
+	  *
+	  * @Title:        insertList
+	  * @Description:  分批插入数据库
+	  * @param:        @param list
+	  * @param:        @throws Exception
+	  * @return:       void
+	  * @author        dave
+	  * @date          2020年8月14日 下午3:31:14
+	  */
+	 public void insertList(List<Blacklist> list) throws Exception {
+		    int insertLength = list.size();
+		    int i = 0;
+		    while (insertLength > INSERT_DATA_LENGTH) {
+		        this.mapper.insertBatch(list.subList(i, i + INSERT_DATA_LENGTH));
+		        i = i + INSERT_DATA_LENGTH;
+		        insertLength = insertLength - INSERT_DATA_LENGTH;
+		    }
+		    if (insertLength > 0) {
+		    	this.mapper.insertBatch(list.subList(i, i + insertLength));
+		    }
+		}
+```
+
+### 6. 批量插入mapper
 
 ```xml
 
@@ -175,7 +242,7 @@ public class ImportExcel {
     </foreach>
   </insert>
 ```
-### 6. jsp代码
+### 7. jsp代码
 
 ```jsp
 
