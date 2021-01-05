@@ -2,8 +2,8 @@
 layout: post
 title:  "java8的流库总结 "
 data: 2020年11月30日17:22:54
-categories: utils
-tags:  utils validate
+categories: java
+tags:  java stream
 author: dave
 ---
 
